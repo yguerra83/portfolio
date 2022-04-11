@@ -1,0 +1,93 @@
+/*******************
+General
+*******************/
+body {
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+}
+
+/*remove underlines from links */
+a {
+    text-decoration: none;
+}
+
+/* remove all bullet points */
+ul {
+    list-style: none;
+}
+
+/* image 100% of their copntainer */
+img {
+    max-width: 100%;
+}
+
+/* set wrapper */
+#wrapper {
+    max-width: 940px;
+    margin: 0px auto;
+}
+
+h1 {
+    font-size: 1.75em;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 600;
+    margin: -10px 0 0 0;
+}
+
+/********************
+Colors
+********************/
+
+/*******************
+Header
+********************/
+
+/*******************
+Footer
+********************/
+footer {
+    clear: both;
+    text-align: center;
+    color: #ccc;
+    padding-top: 50px;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+/********************
+Page:Portfolio
+********************/
+#gallery {
+    margin: 0;
+    padding: 0;
+}
+
+#gallery li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    background-color: #f5f5f5;
+    color: #6d7980;
+}
+
+#gallery li p {
+    margin: 0;
+    padding: 5%;
+    font-size: .75em;
+}
+
+/*******************
+Page: Contact
+*******************/
+
+/********************
+Page: About
+********************/
