@@ -30,21 +30,69 @@ img {
 h1 {
     font-size: 1.75em;
     font-weight: 600;
+    margin-top: 0px;
+    padding-top: 15px;
 }
 
 h2 {
     font-size: 1em;
     font-weight: 600;
     margin: -10px 0 0 0;
+    padding-top: 15px;
 }
 
 /********************
 Colors
 ********************/
+header {
+    background: #6ab47b;
+    border-color: #599a68;
+}
+
+body {
+    background-color: #fff;
+    color: ;
+}
 
 /*******************
 Header
 ********************/
+#logo {
+    text-align: center;
+    margin: 0px;
+}
+
+/* background on mobile */
+nav {
+    background: #599a68;
+}
+
+/********************
+Navigation
+*********************/
+nav li {
+    display: inline-block;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    padding: 0px 15px;
+
+}
+
+nav a:hover,
+nav a:selected {
+    color: #32673f;
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0px;
+}
 
 /*******************
 Footer
@@ -87,6 +135,25 @@ Page:Portfolio
 /*******************
 Page: Contact
 *******************/
+.contact-info a {
+    display: block;
+    background-repeat: no repeat;
+    min-height: 20px;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+}
+
+.contact-info li.phone a {
+    background-image: url('../img/phone.png');
+}
+
+.contact-info li.email a {
+    background-image: url('../img/email.png');
+}
+
+.contact-info li.twitter a {
+    background-image: url('../img/twitter.png');
+}
 
 /********************
 Page: About
